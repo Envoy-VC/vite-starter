@@ -5,11 +5,14 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "check-types": "tsc --noEmit",
     "dev": "vite",
-    "format": "prettier . --write --cache",
+    "format": "pnpm format:check",
     "serve": "vite preview",
-    "start": "vite"
+    "start": "vite",
+    "check": "pnpm format:check && tsc --noEmit",
+    "format:check": "pnpm ultracite lint",
+    "format:write": "pnpm ultracite format",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.61.4",

@@ -4,6 +4,14 @@
   "files": {
     "ignore": ["**/*.gen.ts"]
   },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noConsole": "off",
+        "noConsoleLog": "off"
+      }
+    }
+  },
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
