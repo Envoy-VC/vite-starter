@@ -1,6 +1,4 @@
-/* eslint-disable @eslint-community/eslint-comments/no-unlimited-disable  -- auto generated */
-
-/* eslint-disable -- auto generated  */
+/* eslint-disable */
 
 // @ts-nocheck
 

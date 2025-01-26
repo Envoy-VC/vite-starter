@@ -11,14 +11,14 @@ const router = createRouter({
   defaultPreload: 'intent',
 });
 
-// Register things for typesafety
+// Register things for type-safety
 declare module '@tanstack/react-router' {
   interface Register {
     router: typeof router;
   }
 }
 
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- safe-assertion
+// biome-ignore lint/style/noNonNullAssertion: safe assertion
 const rootElement = document.getElementById('app')!;
 
 if (!rootElement.innerHTML) {

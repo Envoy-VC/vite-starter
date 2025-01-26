@@ -3,11 +3,5 @@
   "generatedRouteTree": "./src/route-tree.gen.ts",
   "routeFileIgnorePrefix": "$",
   "quoteStyle": "single",
-  "semicolons": true,
-  "routeTreeFileHeader": [
-    "/* eslint-disable @eslint-community/eslint-comments/no-unlimited-disable  -- auto generated */",
-    "/* eslint-disable -- auto generated  */",
-    "// @ts-nocheck",
-    "// noinspection JSUnusedGlobalSymbols"
-  ]
+  "semicolons": true
 }

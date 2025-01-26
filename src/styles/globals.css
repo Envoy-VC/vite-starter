@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin "tailwindcss-animate";
 @variant dark (&:where(.dark, .dark *));
 
@@ -125,7 +125,7 @@ button {
     }
 
     to {
-      height: '0';
+      height: "0";
     }
   }
 }
